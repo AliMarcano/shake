@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>837</width>
+    <height>451</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Shake Shake</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Teoria_2">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>150</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 14pt &quot;Arial&quot;;
+color: rgb(0, 17, 255);
+background-color: rgb(128, 255, 247);</string>
+    </property>
+    <property name="text">
+     <string>Salir del viaje</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Teoria_3">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>310</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 14pt &quot;Arial&quot;;
+color: rgb(0, 17, 255);
+background-color: rgb(128, 255, 247);</string>
+    </property>
+    <property name="text">
+     <string>Amigos Multiples</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Teoria_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 14pt &quot;Arial&quot;;
+color: rgb(0, 17, 255);
+background-color: rgb(128, 255, 247);</string>
+    </property>
+    <property name="text">
+     <string>Sumando amigos</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Teoria_6">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>310</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 14pt &quot;Arial&quot;;
+color: rgb(0, 17, 255);
+background-color: rgb(128, 255, 247);</string>
+    </property>
+    <property name="text">
+     <string>Busca Amigos</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Images/estrella.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>10</y>
+      <width>291</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(16, 16, 255);
+font: 12pt &quot;Times New Roman&quot;;</string>
+    </property>
+    <property name="plainText">
+     <string>mensaje primera vez: Hola, soy shake. 
+Espero que puedas ayudarme en mi sueño, quisiera poder reunirme con la mayor cantidad de mis amigos, ellos son estrellas igual que yo.
+
+mensaje demas veces: Hola, ¿como estas?. Hoy continuaremos nuestras aventuras para reunir a mis amigos, ya has logrado reunir &quot;numero&quot; muchas gracias por ayudarme </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-30</y>
+      <width>861</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Images/fondo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>10</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Images/estrella.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>10</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Kristen ITC&quot;;
+color: rgb(255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>301558555</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>60</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Kristen ITC&quot;;
+color: rgb(255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Explorador/a : Nombre</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>100</y>
+      <width>331</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Kristen ITC&quot;;
+color: rgb(255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Encargado : Nombre profesora</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Teoria_7">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>210</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 14pt &quot;Arial&quot;;
+color: rgb(0, 17, 255);
+background-color: rgb(128, 255, 247);</string>
+    </property>
+    <property name="text">
+     <string>Multiplicaciones</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Teoria_8">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>210</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 14pt &quot;Arial&quot;;
+color: rgb(0, 17, 255);
+background-color: rgb(128, 255, 247);</string>
+    </property>
+    <property name="text">
+     <string>Sumas sucesivas</string>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>Teoria_2</zorder>
+   <zorder>Teoria_3</zorder>
+   <zorder>Teoria_4</zorder>
+   <zorder>Teoria_6</zorder>
+   <zorder>label</zorder>
+   <zorder>plainTextEdit</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>Teoria_7</zorder>
+   <zorder>Teoria_8</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Images/fondo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>estrella.jpg</file>
+    <file>fondo.png</file>
+  </qresource>
+</RCC>
